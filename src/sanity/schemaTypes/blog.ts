@@ -1,5 +1,4 @@
-// schemas/blog.js
-export default {
+const blogSchema = {
   name: 'blog',
   title: 'Blog',
   type: 'document',
@@ -33,3 +32,5 @@ export default {
     },
   ],
 };
+
+export default blogSchema;
